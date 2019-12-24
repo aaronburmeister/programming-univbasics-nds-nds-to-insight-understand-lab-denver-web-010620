@@ -17,3 +17,5 @@ def print_first_directors_movie_titles
   end
   puts first_director_movie_titles
 end
+
+pp directors_database
