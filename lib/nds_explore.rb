@@ -18,4 +18,4 @@ def print_first_directors_movie_titles
   puts first_director_movie_titles
 end
 
-pp directors_database[0][:movies][:title]
+pp directors_database[0][:movies][0]
