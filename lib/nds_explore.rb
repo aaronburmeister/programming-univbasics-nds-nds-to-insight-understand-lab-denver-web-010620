@@ -16,4 +16,5 @@ def print_first_directors_movie_titles
     count += 1
   end
   answer = first_director_movie_titles.join("\n")
+  puts answer
 end
