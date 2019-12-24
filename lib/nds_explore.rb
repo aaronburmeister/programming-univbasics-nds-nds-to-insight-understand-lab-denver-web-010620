@@ -15,6 +15,5 @@ def print_first_directors_movie_titles
     first_director_movie_titles << directors_database[0][:movies][count][:title]
     count += 1
   end
-  answer = first_director_movie_titles.join("\n")
-  puts answer
+  puts first_director_movie_titles.join("\n")
 end
